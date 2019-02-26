@@ -1,0 +1,21 @@
+========================== test session starts ===========================
+platform darwin -- Python 3.6.2, pytest-3.2.0, py-1.4.34, pluggy-0.4.0
+rootdir: /Users/mwiesner/Documents/Berkeley2019SWE/test-package, inifile:
+plugins: session2file-0.1.9, forked-0.2, xdist-1.20.1, flake8-0.9.1, remotedata-0.3.1, openfiles-0.3.2, doctestplus-0.2.0, arraydiff-0.3
+
+collecting 0 items
+collecting 1 item
+collecting 1 item / 1 errors
+
+collected 1 item / 1 errors 
+
+================================= ERRORS =================================
+_____________ ERROR collecting darkbox/tests/test_energy.py ______________
+import file mismatch:
+imported module 'test_energy' has this __file__ attribute:
+  /Users/mwiesner/Documents/Berkeley2019SWE/test-package/test_energy.py
+which is not the same as the test file we want to collect:
+  /Users/mwiesner/Documents/Berkeley2019SWE/test-package/darkbox/tests/test_energy.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!
+======================== 1 error in 0.14 seconds =========================

@@ -1,0 +1,22 @@
+========================== test session starts ===========================
+platform darwin -- Python 3.6.2, pytest-3.2.0, py-1.4.34, pluggy-0.4.0
+rootdir: /Users/mwiesner/Documents/Berkeley2019SWE/test-package, inifile:
+plugins: session2file-0.1.9, forked-0.2, xdist-1.20.1, flake8-0.9.1, remotedata-0.3.1, openfiles-0.3.2, doctestplus-0.2.0, arraydiff-0.3
+
+collecting 0 items
+collecting 1 item
+collecting 1 item
+
+collected 1 item 
+
+test_energy.py F
+
+================================ FAILURES ================================
+______________________________ test_square _______________________________
+
+    def test_square():
+>      y = energy.square([1,2,3])
+E      AttributeError: module 'darkbox.energy' has no attribute 'square'
+
+test_energy.py:6: AttributeError
+======================== 1 failed in 0.07 seconds ========================
